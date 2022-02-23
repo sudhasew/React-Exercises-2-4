@@ -1,0 +1,47 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+.name,
+.breed {
+  padding-left: 20px;
+}
+
+.newPet {
+  margin-left: 20px;
+}
+
+.upDownCounter {
+  border: 2px solid rgb(49, 49, 49);
+  width: 150px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  margin-left: 20px;
+  border-radius: 7px;
+}
+
+button {
+  margin: 10px;
+  padding: 0 10px;
+  cursor: pointer;
+  border-radius: 7px;
+  border: 2px solid rgb(196, 195, 195);
+}
+
+.upBtn,
+.downBtn {
+  width: 120px;
+}
